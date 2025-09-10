@@ -75,7 +75,7 @@ function App() {
             <h1>Equip Patient Referral System</h1>
             {isReturningProvider && providerData && currentStep !== STEPS.SUCCESS && (
               <div className="welcome-message">
-                <h2>Welcome back, {providerData.name}!</h2>
+                <h2>Welcome back, {providerData.firstName} {providerData.lastName}!</h2>
               </div>
             )}
           </header>
