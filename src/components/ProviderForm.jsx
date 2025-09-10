@@ -116,20 +116,15 @@ const ProviderForm = ({ onSubmit, initialData = null }) => {
 
         <div className="form-group">
           <label htmlFor="phone">Your office number *</label>
-          <div className="phone-input">
-            <select className="country-code">
-              <option value="+1">🇺🇸 +1</option>
-            </select>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              placeholder="555 555 5555"
-              required
-            />
-          </div>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            placeholder="555-123-4567"
+            required
+          />
         </div>
 
         <div className="form-group">
