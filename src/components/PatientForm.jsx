@@ -11,6 +11,17 @@ const PatientForm = ({ onSubmit, onBack }) => {
     relationship: ''
   });
 
+  const prefillTestData = () => {
+    setFormData({
+      name: 'Emily Rodriguez',
+      email: 'emily.rodriguez@email.com',
+      phone: '555-987-6543',
+      dob: '1995-03-15',
+      insuranceProvider: 'Blue Cross Blue Shield',
+      insuranceId: 'BC123456789',
+      relationship: 'treating-provider'
+    });
+  };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -27,6 +38,24 @@ const PatientForm = ({ onSubmit, onBack }) => {
   return (
     <div className="form-section">
       <h2>Patient Information</h2>
+      <div style={{ marginBottom: '20px', textAlign: 'right' }}>
+        <button 
+          type="button" 
+          onClick={prefillTestData}
+          style={{
+            background: '#6492F9',
+            color: 'white',
+            border: 'none',
+            padding: '8px 16px',
+            borderRadius: '6px',
+            fontSize: '14px',
+            cursor: 'pointer',
+            fontWeight: '500'
+          }}
+        >
+          Fill Test Data
+        </button>
+      </div>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Patient Name *</label>
