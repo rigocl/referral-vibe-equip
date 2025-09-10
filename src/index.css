@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  background: linear-gradient(135deg, #f0fdfa 0%, #ecfdf5 50%, #f0f9ff 100%);
-  color: #1a202c;
+  background: linear-gradient(135deg, #E7FDF9 0%, #FFFFFF 50%, #DCE7FF 100%);
+  color: #164356;
   line-height: 1.6;
   font-size: 16px;
   font-weight: 400;
@@ -33,7 +33,7 @@ body {
   left: 0;
   right: 0;
   background: white;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #709C9A;
   z-index: 1000;
   height: 80px;
 }
@@ -73,7 +73,7 @@ body {
 .logo-text {
   font-size: 20px;
   font-weight: 600;
-  color: #1a202c;
+  color: #164356;
   letter-spacing: -0.025em;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #4b5563;
+  color: #334E4C;
   font-weight: 500;
   font-size: 15px;
   padding: 8px 0;
@@ -134,8 +134,8 @@ body {
 
 .btn-secondary {
   background: transparent;
-  color: #4b5563;
-  border: 1px solid #d1d5db;
+  color: #334E4C;
+  border: 1px solid #709C9A;
   padding: 8px 16px;
   border-radius: 6px;
   font-weight: 500;
@@ -145,8 +145,8 @@ body {
 }
 
 .btn-secondary:hover {
-  background: #f9fafb;
-  border-color: #9ca3af;
+  background: #E7FDF9;
+  border-color: #007F79;
 }
 
 .btn-primary {
@@ -178,7 +178,7 @@ body {
 }
 
 .mobile-menu-button:hover {
-  background: #f3f4f6;
+  background: #E7FDF9;
 }
 
 .hamburger {
@@ -193,7 +193,7 @@ body {
   display: block;
   height: 2px;
   width: 100%;
-  background: #374151;
+  background: #164356;
   border-radius: 1px;
   transition: all 0.3s ease;
   transform-origin: center;
@@ -223,7 +223,7 @@ body {
   left: 0;
   right: 0;
   background: white;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #709C9A;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
@@ -243,15 +243,15 @@ body {
 
 .mobile-nav-link {
   display: block;
-  color: #374151;
+  color: #164356;
   text-decoration: none;
   font-weight: 500;
   padding: 12px 0;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 1px solid #E7FDF9;
 }
 
 .mobile-nav-link:hover {
-  color: #10b981;
+  color: #007F79;
 }
 
 .mobile-actions {
@@ -305,7 +305,7 @@ body {
 }
 
 .sidebar-title {
-  color: #003D3A;
+  color: #164356;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -313,7 +313,7 @@ body {
 }
 
 .sidebar-description {
-  color: #004A46;
+  color: #334E4C;
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
@@ -325,7 +325,7 @@ body {
 }
 
 .features-title {
-  color: #003D3A;
+  color: #164356;
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 16px;
@@ -342,7 +342,7 @@ body {
   align-items: center;
   gap: 12px;
   margin-bottom: 12px;
-  color: #004A46;
+  color: #334E4C;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -361,14 +361,14 @@ body {
 }
 
 .contact-title {
-  color: #003D3A;
+  color: #164356;
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
 .contact-description {
-  color: #004A46;
+  color: #334E4C;
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 16px;
@@ -411,15 +411,15 @@ body {
 
 /* Call to Action Box */
 .call-to-action-box {
-  background: #fef3cd;
-  border: 1px solid #fbbf24;
+  background: #FFF8E2;
+  border: 1px solid #FFC52E;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 32px;
 }
 
 .cta-text {
-  color: #92400e;
+  color: #847F72;
   font-size: 14px;
   margin-bottom: 12px;
   font-weight: 500;
@@ -431,7 +431,7 @@ body {
   gap: 8px;
   background: none;
   border: none;
-  color: #0ea5e9;
+  color: #6492F9;
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
@@ -440,7 +440,7 @@ body {
 }
 
 .cta-button:hover {
-  color: #0284c7;
+  color: #2D3C5A;
 }
 
 .cta-icon {
@@ -470,9 +470,9 @@ body {
   font-size: 14px;
   font-weight: 600;
   flex-shrink: 0;
-  border: 2px solid #d1d5db;
+  border: 2px solid #709C9A;
   background: white;
-  color: #6b7280;
+  color: #334E4C;
 }
 
 .step-item.active .step-circle {
@@ -488,7 +488,7 @@ body {
 }
 
 .step-title {
-  color: #6b7280;
+  color: #334E4C;
   font-size: 14px;
   font-weight: 500;
 }
@@ -499,7 +499,7 @@ body {
 }
 
 .step-item.completed .step-title {
-  color: #004A46;
+  color: #164356;
 }
 
 .step-check {
@@ -513,14 +513,14 @@ body {
 }
 
 .hipaa-title {
-  color: #003D3A;
+  color: #164356;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
 .hipaa-text {
-  color: #004A46;
+  color: #334E4C;
   font-size: 13px;
   line-height: 1.5;
   margin: 0;
@@ -594,7 +594,7 @@ body {
 }
 
 .page-header h1 {
-  color: #1a202c;
+  color: #164356;
   margin-bottom: 8px;
   font-size: 2.25rem;
   font-weight: 600;
@@ -602,9 +602,9 @@ body {
 }
 
 .welcome-message {
-  background: #ecfdf5;
+  background: #E7FDF9;
   border: 1px solid #007F79;
-  color: #003D3A;
+  color: #164356;
   padding: 24px;
   border-radius: 12px;
   margin-top: 24px;
@@ -628,7 +628,7 @@ body {
 }
 
 .form-section h2 {
-  color: #003D3A;
+  color: #164356;
   margin-bottom: 24px;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(0, 127, 121, 0.2);
@@ -644,7 +644,7 @@ body {
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
-  color: #374151;
+  color: #164356;
   font-size: 14px;
 }
 
@@ -652,7 +652,7 @@ body {
 .form-group select {
   width: 100%;
   padding: 12px 16px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #709C9A;
   border-radius: 8px;
   font-size: 16px;
   transition: all 0.2s ease;
@@ -691,27 +691,27 @@ body {
 }
 
 .submit-button:disabled {
-  background: #9ca3af;
+  background: #709C9A;
   cursor: not-allowed;
   box-shadow: none;
 }
 
 .success-message {
-  background: #f0fdf4;
-  border: 1px solid #22c55e;
+  background: #E7FDF9;
+  border: 1px solid #00EB8F;
   border-radius: 12px;
   padding: 32px;
   text-align: center;
 }
 
 .success-message h2 {
-  color: #15803d;
+  color: #164356;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .success-message p {
-  color: #166534;
+  color: #334E4C;
   margin-bottom: 24px;
   font-size: 16px;
 }
@@ -725,8 +725,8 @@ body {
 
 .link-container input {
   flex: 1;
-  background-color: #f9fafb;
-  border: 1px solid #d1d5db;
+  background-color: #E7FDF9;
+  border: 1px solid #709C9A;
   padding: 12px 16px;
   border-radius: 8px;
   font-size: 14px;
@@ -755,7 +755,7 @@ body {
 
 .link-note {
   font-size: 14px;
-  color: #6b7280;
+  color: #334E4C;
   margin-top: 12px;
 }
 
