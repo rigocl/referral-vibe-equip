@@ -42,8 +42,8 @@ function FormSidebar({ step }) {
         {content.showIcon && (
           <div className="sidebar-icon">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="20" stroke="#10b981" strokeWidth="2" fill="none"/>
-              <path d="M18 24l6 6 12-12" stroke="#10b981" strokeWidth="2" fill="none"/>
+              <circle cx="24" cy="24" r="20" stroke="#007F79" strokeWidth="2" fill="none"/>
+              <path d="M18 24l6 6 12-12" stroke="#007F79" strokeWidth="2" fill="none"/>
             </svg>
           </div>
         )}
