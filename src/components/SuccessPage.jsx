@@ -19,6 +19,16 @@ const SuccessPage = ({ providerCode, onStartNewReferral }) => {
       <h2>Referral Submitted Successfully!</h2>
       <p>Thank you for your referral. The patient will be contacted shortly.</p>
       
+      <div className="email-confirmation">
+        <p>
+          <strong>📧 Confirmation Email Sent</strong>
+        </p>
+        <p>
+          A confirmation email with all referral details has been sent to your email address. 
+          This includes the patient information, referral details, and next steps for follow-up.
+        </p>
+      </div>
+      
       <div>
         <p><strong>Your personalized referral link:</strong></p>
         <div className="link-container">

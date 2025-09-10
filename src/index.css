@@ -759,6 +759,31 @@ body {
   margin-top: 12px;
 }
 
+.email-confirmation {
+  background: #E7FDF9;
+  border: 1px solid #007F79;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 24px 0;
+  text-align: left;
+}
+
+.email-confirmation p:first-child {
+  color: #164356;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.email-confirmation p:last-child {
+  color: #334E4C;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
 .hidden {
   display: none !important;
 }
